@@ -48,6 +48,7 @@ group :development, :test do
   gem 'meta_request'  #require the chrome extension as well https://chrome.google.com/webstore/detail/railspanel/gjpfobpafnhjhbajcjgccbbdofdckggg
   gem 'awesome_print'
   gem 'rack-mini-profiler'  #gem must be inserted after pg gem.
+  # https://github.com/flyerhzm/bullet
   # gem 'bullet'  #alert you to N+1 queries
   #
   #

@@ -1,4 +1,10 @@
 Rails.application.routes.draw do
+  resources :tasks do
+    #create custom action routes thru member
+    member do
+      put :change
+    end
+  end
   devise_for :users
   root 'pages#home'
   get 'about' => 'pages#about'

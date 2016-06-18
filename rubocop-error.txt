@@ -1,0 +1,22 @@
+Inspecting 5 files
+CCCCC
+
+Offenses:
+
+app/controllers/application_controller.rb:1:1: C: Missing top-level class documentation comment.
+class ApplicationController < ActionController::Base
+^^^^^
+app/controllers/pages_controller.rb:1:1: C: Missing top-level class documentation comment.
+class PagesController < ApplicationController
+^^^^^
+app/helpers/application_helper.rb:1:1: C: Missing top-level module documentation comment.
+module ApplicationHelper
+^^^^^^
+app/helpers/pages_helper.rb:1:1: C: Missing top-level module documentation comment.
+module PagesHelper
+^^^^^^
+app/models/user.rb:1:1: C: Missing top-level class documentation comment.
+class User < ActiveRecord::Base
+^^^^^
+
+5 files inspected, 5 offenses detected
